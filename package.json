@@ -1,0 +1,27 @@
+{
+    "name": "clip4sale-test",
+    "version": "1.0.0",
+    "description": "Test project for Clip4Sale using WebdriverIO and Mocha",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio run ./wdio.conf.js",
+        "wdio": "wdio run ./wdio.conf.js"
+    },
+    "author": "PivovarovVD",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "^8.16.3",
+        "@wdio/dot-reporter": "^8.16.3",
+        "@wdio/junit-reporter": "^8.16.3",
+        "@wdio/local-runner": "^8.16.3",
+        "@wdio/mocha-framework": "^8.16.3",
+        "@wdio/spec-reporter": "^8.16.3",
+        "chromedriver": "^116.0.0",
+        "mocha": "^10.2.0",
+        "wdio-chromedriver-service": "^8.1.1",
+        "webdriverio": "^8.16.3"
+    },
+    "dependencies": {
+        "axios": "^1.5.0"
+    }
+}

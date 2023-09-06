@@ -1,0 +1,4 @@
+node_modules/
+junit_reports/
+package-lock.json
+.DS_Store
